@@ -1,4 +1,5 @@
 
+import ServiceCarousel from "@/components/ServiceCarousel";
 import Image from "next/image";
 
 
@@ -36,18 +37,13 @@ export default function Home() {
             <p className="text-[16px] text-[#636571] leading">Services High Quality Service For you</p>
           </div>
           {/* images */}
-          <div className="flex item-center justify-center space-x-40 py-10">
-            <Image src='/service-img1.png' alt='' height={96} width={96} />
-            <Image src='/service-img2.png' alt='' height={96} width={96} />
-            <Image src='/service-img3.png' alt='' height={96} width={96} />
-            <Image src='/service-img4.png' alt='' height={96} width={96} />npm uninstall sadcdn
-            <Image src='/service-img5.png' alt='' height={96} width={96} />
+          <div className="flex item-center justify-center space-x-40 w-[1100] py-10">
+          
+            <ServiceCarousel />
           
 
           </div>
-          <div className="flex item-center justify-center py-9">
-            <Image src="/carosal.png" alt="" width={170} height={90} />
-          </div>
+        
         </div>
 
 
